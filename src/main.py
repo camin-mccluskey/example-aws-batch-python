@@ -2,13 +2,10 @@ import logging
 import os
 import sys
 
-import aiohttp
-import boto3
-
 logger = logging.getLogger(__name__)
 
 
-async def run(env: str):
+def run(env: str):
     return 'DONE'
 
 if __name__ == '__main__':
